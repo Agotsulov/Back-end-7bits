@@ -31,9 +31,11 @@ public class DoubleEndedQueue {
         return false;
     }
 
-    public void addFirst(Node node){
-        if(node == null)
+    public void addFirst(Matrix value){
+        if(value == null)
             return;
+
+        Node node = new Node(value);
 
         if(checkEmpty(node))
             return;
@@ -44,9 +46,11 @@ public class DoubleEndedQueue {
 
     }
 
-    public void addLast(Node node){
-        if(node == null)
+    public void addLast(Matrix value){
+        if(value == null)
             return;
+
+        Node node = new Node(value);
 
         if(checkEmpty(node))
             return;
