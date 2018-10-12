@@ -17,7 +17,6 @@ public class Main {
         matrix.inverseMatrix();
         System.out.println(matrix.toString());
 
-
         DoubleEndedQueue doubleEndedQueue = new DoubleEndedQueue();
 
         doubleEndedQueue.addFirst(new Matrix(10,10));
