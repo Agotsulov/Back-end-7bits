@@ -3,7 +3,15 @@ package it.sevenbits.workshop;
 public class Main {
 
     public static void main(String[] args) {
-        Matrix matrix = new Matrix(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        Matrix matrix;
+        try{
+            matrix = new Matrix(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        } catch (NumberFormatException e) {
+            matrix = new Matrix(10, 10);
+        } catch (IllegalArgumentException e) {
+            matrix = new Matrix(10,10);
+        }
+
         System.out.println(matrix.toString());
 
         matrix.inverseMatrix();

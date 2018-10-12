@@ -11,6 +11,8 @@ public class Matrix {
     private Matrix() {}
 
     public Matrix(int rowsLen,int columnsLen) {
+        if((rowsLen < 0) || (columnsLen < 0))
+            throw new IllegalArgumentException();
         matrix = new Cell[rowsLen][columnsLen];
         fillMatrixByRandomValues();
     }
