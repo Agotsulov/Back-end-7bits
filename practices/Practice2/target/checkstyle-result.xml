@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="D:\Workspace\Back-end-7bits\practices\Practice2\src\main\java\com\tenexperts\app\summatra\array\ArraySummaterException.java">
+</file>
+<file name="D:\Workspace\Back-end-7bits\practices\Practice2\src\main\java\com\tenexperts\app\summatra\array\IArraySummater.java">
+</file>
+<file name="D:\Workspace\Back-end-7bits\practices\Practice2\src\main\java\com\tenexperts\app\summatra\array\package-info.java">
+</file>
+<file name="D:\Workspace\Back-end-7bits\practices\Practice2\src\main\java\com\tenexperts\app\summatra\array\PairSummater.java">
+</file>
+<file name="D:\Workspace\Back-end-7bits\practices\Practice2\src\main\java\com\tenexperts\app\summatra\array\SimpleSummater.java">
+</file>
+</checkstyle>
