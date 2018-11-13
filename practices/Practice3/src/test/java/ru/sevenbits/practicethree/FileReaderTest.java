@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class FileReaderTest {
 
     @org.junit.Test
-    public void readLine() {
+    public void testReadLine() {
         FileReader fileReader = new FileReader("MyHomework3.txt");
         String expect = "MyHomework3.txt 0 ./\n" +
                 "MyHomework3.txt 1 ../\n" +
